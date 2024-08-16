@@ -5,14 +5,13 @@ matched abstracts using “Large Language Model,” “LLM,” and related phra
 (1) title:overview, survey,review
 (2) abstract:large language models, llm, foundation models,
 gpt, sora, bert, bloom, generative pre-training transformer,
-transformer, gpt-3.5, gpt-4.0, language models, gpt-3.0, gpt-
-2.5, llms
+transformer, gpt-3.5, gpt-4, language models, gpt-3,llms
 ## Data Processing
 The data processing mainly involves the following steps:
 (1) From the metadata obtained through data collection, we
 acquire the arXiv IDs of the articles. Using the arXiv API,
 we retrieve the full-text PDFs corresponding to the articles.
-(2) We utilize the machine learning library GROBID[? ] for
+(2) We utilize the machine learning library GROBID for
 PDF parsing, resulting in JSON format data containing information such as article title, header, year, abstract, body
 text, reference entries, etc.
 (3) Since the parsed citation data only contains title, year, and
