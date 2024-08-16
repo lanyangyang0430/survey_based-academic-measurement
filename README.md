@@ -30,3 +30,10 @@ the search data list.
 After processing, the average citation retention rate per
 article is 95.4%, ensuring relatively accurate and sufficient
 citation data.
+## Normal Q-Q Plot of Our Proposed Survey-based Metrics
+![image](https://github.com/lanyangyang0430/survey_based-academic-measurement/blob/main/Normal%20Q-Q%20Plot%20of%20Survey-based%20Metrics/Normal%20QQ%20Plots.png)
+## Components of Metrics-combined Prompt
+![image](https://github.com/lanyangyang0430/survey_based-academic-measurement/blob/main/Components%20of%20metrics-based%20prompt.png)
+The components of prompt.{Data} includes three quantitative metrics: CMT, CDL, MSD, and the Cited Source: specific
+information on which surveys have cited the focal paper, input in a dictionary structure. {Metrics Explanation} clarifies the
+meaning of the metrics, and Field Explanation explains the specific fields of the Cited Source.
