@@ -12,12 +12,12 @@ The data processing mainly involves the following steps:
 acquire the arXiv IDs of the articles. Using the arXiv API,
 we retrieve the full-text PDFs corresponding to the articles.
 (2) We utilize the machine learning library GROBID for
-PDF parsing, resulting in JSON format data containing information such as article title, header, year, abstract, body
+PDF parsing, resulting in JSON format data containing information such as article title, header, year, abstract, body
 text, reference entries, etc.
 (3) Since the parsed citation data only contains title, year, and
-authors information, we retrieve the paper_id and citationCount through the title of the citation. We utilize the
+authors information, we retrieve the paper_id and citationCount through the title of the citation. We utilize the
 Semantic Scholar API, using the article title as the search
-term. Due to parsing errors in both the parsed citation titles and the stored title data in academic databases (such
+term. Due to parsing errors in both the parsed citation titles and the stored title data in academic databases (such
 as undivided conference names and title fields, incomplete
 article titles, etc.), to ensure that the retrieved articles are
 indeed the ones needed, we perform the following steps:
