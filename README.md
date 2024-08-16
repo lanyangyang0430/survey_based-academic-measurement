@@ -1,5 +1,5 @@
 # Survey_based-academic-measurement
-## Data Collecting
+## Data Search Strategy
 Specifically, we matched titles using "overview" and "survey" and
 matched abstracts using "Large Language Model","LLM","generative pre-training transformergenerative pre-training transformer" and related phrases.
 ## Data Processing
