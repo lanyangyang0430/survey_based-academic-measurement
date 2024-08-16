@@ -1,7 +1,7 @@
 # survey_based-academic-measurement
 ## Data Collecting
 Specifically, we matched titles using “overview” and “survey,” and
-matched abstracts using “Large Language Model,” “LLM,” and related phrases. The detailed rules are shown below:
+matched abstracts using “Large Language Model,” “LLM,” and related phrases. The detailed rules are shown below:
 (1) title:overview, survey,review
 (2) abstract:large language models, llm, foundation models,
 gpt, sora, bert, bloom, generative pre-training transformer,
@@ -24,7 +24,7 @@ indeed the ones needed, we perform the following steps:
 • Set the number of returned results to 5.
 • Convert both the title in the citation data and the titles
 returned from the search to lowercase, then calculate
-the Rouge value between them, and save the corresponding title with the maximum Rouge value from
+the Rouge value between them, and save the corresponding title with the maximum Rouge value from
 the search data list.
 • Exclude all data with Rouge values below 0.8.
 After processing, the average citation retention rate per
