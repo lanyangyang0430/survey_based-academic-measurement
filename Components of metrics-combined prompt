@@ -1,0 +1,3 @@
+The components of prompt.{Data} includes three quantitative metrics: CMT, CDL, MSD, and the Cited Source: specific
+information on which surveys have cited the focal paper, input in a dictionary structure. {Metrics Explanation} clarifies the
+meaning of the metrics, and Field Explanation explains the specific fields of the Cited Source.
